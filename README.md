@@ -15,4 +15,4 @@ The tasks involve:
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was created by Stéphanie Langlais, with the help of the Udacity team.
