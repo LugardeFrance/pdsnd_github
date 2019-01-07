@@ -138,7 +138,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nCalculating...\n')
     start_time = time.time()
 
     # TO DO: display total travel time
@@ -146,7 +146,7 @@ def trip_duration_stats(df):
     print('Total Travel Time:', total_travel_time)
 
     # TO DO: display mean travel time
-    mean_travel_time = df['Trip Duration'].mean() 
+    mean_travel_time = df['Trip Duration'].mean()
     print('Average Travel Time:', mean_travel_time)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -169,12 +169,12 @@ def user_stats(df):
 
     # TO DO: Display earliest, most recent, and most common year of birth
     year_birth_min = df['Birth Year'].min()
-    print('Earlier Year of Birth:', year_birth_min) 
+    print('Earlier Year of Birth:', year_birth_min)
     year_birth_max = df['Birth Year'].max()
     print('Most Recent Year of Birth:', year_birth_max)
     year_birth_common = df['Birth Year'].mode()[0]
     print('Most Common Year of Birth:', year_birth_common)
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
