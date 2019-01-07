@@ -1,15 +1,18 @@
-### Date created
-Include the date you created this project and README file.
+# Explore bikeshare data
 
-### Project Title
-Replace the Project Title
+### Creation date
+This project has been created on January 7, 2019.
 
 ### Description
-Describe what your project is about and what it does
+The project explores data related to bike share systems for Chicago, New York City and Washington.
+The tasks involve:
+- writing code:
+    * to import the data
+    * to answer questions about it computing descriptive statistics
+- writing a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
